@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c21fed6fc9b3146b898bb98bad3758, type: 3}
+  m_Name: FacialAnimationTree
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 1b562470-5642-490d-ba72-15b36489db22
+    PortName: NEXT
+    TargetNodeGuid: dc856930-dd77-4f01-8b91-24a4c89c7af2
+  - BaseNodeGuid: dc856930-dd77-4f01-8b91-24a4c89c7af2
+    PortName: I need help.
+    TargetNodeGuid: 28671fe0-8f58-431b-b6db-0662367d3791
+  - BaseNodeGuid: dc856930-dd77-4f01-8b91-24a4c89c7af2
+    PortName: Who are you?
+    TargetNodeGuid: e246ad17-52a8-4bfa-b096-415668c3149e
+  - BaseNodeGuid: 6f77785c-9c4e-421b-968a-f8e52ca3b2e4
+    PortName: Cast a spell!
+    TargetNodeGuid: e44f912e-49f9-452c-bf4a-ea6f4cf4566c
+  - BaseNodeGuid: 6f77785c-9c4e-421b-968a-f8e52ca3b2e4
+    PortName: Sing!
+    TargetNodeGuid: 03febfca-715f-49d7-acea-41a5e36425e1
+  - BaseNodeGuid: 28671fe0-8f58-431b-b6db-0662367d3791
+    PortName: I am sad.
+    TargetNodeGuid: 44366bde-f38e-4cfd-bbee-ca399eb6ca4a
+  - BaseNodeGuid: 28671fe0-8f58-431b-b6db-0662367d3791
+    PortName: I am mad.
+    TargetNodeGuid: dea0e862-7f03-4c3e-a469-ce1bd2b32077
+  - BaseNodeGuid: dea0e862-7f03-4c3e-a469-ce1bd2b32077
+    PortName: Cast a spell!
+    TargetNodeGuid: e44f912e-49f9-452c-bf4a-ea6f4cf4566c
+  - BaseNodeGuid: dea0e862-7f03-4c3e-a469-ce1bd2b32077
+    PortName: Sing!
+    TargetNodeGuid: 03febfca-715f-49d7-acea-41a5e36425e1
+  - BaseNodeGuid: 8fe6f265-f70a-494c-b966-746f38825827
+    PortName: You can do that?
+    TargetNodeGuid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+  - BaseNodeGuid: 8fe6f265-f70a-494c-b966-746f38825827
+    PortName: You don't have legs.
+    TargetNodeGuid: ced4d13b-6fd5-4522-898d-007b956e76f7
+  - BaseNodeGuid: 44366bde-f38e-4cfd-bbee-ca399eb6ca4a
+    PortName: But you don't have teeth.
+    TargetNodeGuid: aa1cba51-ff48-4f8c-b830-5ae3e6444a65
+  - BaseNodeGuid: 44366bde-f38e-4cfd-bbee-ca399eb6ca4a
+    PortName: Thanks for the advice. Goodbye.
+    TargetNodeGuid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+  - BaseNodeGuid: e246ad17-52a8-4bfa-b096-415668c3149e
+    PortName: But what do you do?
+    TargetNodeGuid: 6f77785c-9c4e-421b-968a-f8e52ca3b2e4
+  - BaseNodeGuid: e246ad17-52a8-4bfa-b096-415668c3149e
+    PortName: But what's wrong with your face?
+    TargetNodeGuid: 8fe6f265-f70a-494c-b966-746f38825827
+  - BaseNodeGuid: aa1cba51-ff48-4f8c-b830-5ae3e6444a65
+    PortName: Nice. Goodbye
+    TargetNodeGuid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+  - BaseNodeGuid: aa1cba51-ff48-4f8c-b830-5ae3e6444a65
+    PortName: That's gross. Bye.
+    TargetNodeGuid: dbc2a4aa-37cc-41df-9c85-0b62a64ee63f
+  - BaseNodeGuid: 03febfca-715f-49d7-acea-41a5e36425e1
+    PortName: Very nice. Goodbye.
+    TargetNodeGuid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+  - BaseNodeGuid: 03febfca-715f-49d7-acea-41a5e36425e1
+    PortName: You suck. Bye.
+    TargetNodeGuid: dbc2a4aa-37cc-41df-9c85-0b62a64ee63f
+  - BaseNodeGuid: e44f912e-49f9-452c-bf4a-ea6f4cf4566c
+    PortName: Wow, magical. Goodbye.
+    TargetNodeGuid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+  - BaseNodeGuid: e44f912e-49f9-452c-bf4a-ea6f4cf4566c
+    PortName: You're evil. Bye.
+    TargetNodeGuid: dbc2a4aa-37cc-41df-9c85-0b62a64ee63f
+  DialogueNodeData:
+  - Guid: dc856930-dd77-4f01-8b91-24a4c89c7af2
+    DialogueText: What do you want?
+    Position: {x: 189, y: 193}
+  - Guid: 6f77785c-9c4e-421b-968a-f8e52ca3b2e4
+    DialogueText: Why are you so nosy? What do you want from me?
+    Position: {x: 1058, y: 358}
+  - Guid: 28671fe0-8f58-431b-b6db-0662367d3791
+    DialogueText: That's the only reason you talk to me. What do you want now?
+    Position: {x: 462, y: -233}
+  - Guid: dea0e862-7f03-4c3e-a469-ce1bd2b32077
+    DialogueText: How is that my problem? How do you expect me to help?
+    Position: {x: 986, y: -73}
+  - Guid: ced4d13b-6fd5-4522-898d-007b956e76f7
+    DialogueText: AND SOON NEITHER WILL YOU. GOODBYE.
+    Position: {x: 1807, y: 592}
+  - Guid: 8fe6f265-f70a-494c-b966-746f38825827
+    DialogueText: I will roundhouse you, buddy.
+    Position: {x: 1208, y: 643}
+  - Guid: 44366bde-f38e-4cfd-bbee-ca399eb6ca4a
+    DialogueText: Smile while you still have teeth. That's my motto.
+    Position: {x: 1007, y: -320}
+  - Guid: e246ad17-52a8-4bfa-b096-415668c3149e
+    DialogueText: 'I am the supreme leader. '
+    Position: {x: 522, y: 354}
+  - Guid: e44f912e-49f9-452c-bf4a-ea6f4cf4566c
+    DialogueText: '*casting spell*'
+    Position: {x: 1653, y: 7}
+  - Guid: 03febfca-715f-49d7-acea-41a5e36425e1
+    DialogueText: '*singing*'
+    Position: {x: 1679, y: 158}
+  - Guid: aa1cba51-ff48-4f8c-b830-5ae3e6444a65
+    DialogueText: I lost my teeth many moons ago. I outgrew them.
+    Position: {x: 1528, y: -357}
+  - Guid: dbc2a4aa-37cc-41df-9c85-0b62a64ee63f
+    DialogueText: Bye, fatty. Don't come back.
+    Position: {x: 2384, y: -260}
+  - Guid: 37b7df62-78b0-4e45-8cef-a414260a3b9b
+    DialogueText: Goodbye, big boy.
+    Position: {x: 2418, y: 213}
